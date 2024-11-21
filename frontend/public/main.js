@@ -1,11 +1,9 @@
-// frontend/public/main.js
 
-// Helper function to get JWT from localStorage
 function getToken() {
   return localStorage.getItem('token');
 }
 
-// Register
+
 document.getElementById('registerForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const name = document.getElementById('name').value;
@@ -24,7 +22,7 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
   console.log(result);
 });
 
-// Login
+
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const email = document.getElementById('email').value;
@@ -43,7 +41,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
   localStorage.setItem('token', result.token);
 });
 
-// Set Availability
+
 document.getElementById('setAvailabilityForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const availableFrom = document.getElementById('availableFrom').value;

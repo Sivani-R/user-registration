@@ -1,4 +1,4 @@
-// backend/controllers/appointmentController.js
+
 const Appointment = require('../models/Appointment');
 
 const appointmentController = {

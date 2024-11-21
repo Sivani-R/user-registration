@@ -1,4 +1,4 @@
-// backend/controllers/availabilityController.js
+
 const Availability = require('../models/Availability');
 
 const availabilityController = {
