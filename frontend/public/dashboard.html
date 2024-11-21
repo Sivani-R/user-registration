@@ -1,0 +1,27 @@
+<!-- frontend/public/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <div id="availabilityForm">
+    <h2>Set Availability</h2>
+    <form id="setAvailabilityForm">
+      <input type="datetime-local" id="availableFrom" required>
+      <input type="datetime-local" id="availableTo" required>
+      <button type="submit">Set Availability</button>
+    </form>
+  </div>
+  <div id="appointments">
+    <h2>Appointments</h2>
+    <ul id="appointmentList"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
